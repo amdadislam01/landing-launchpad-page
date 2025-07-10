@@ -87,3 +87,116 @@ nav {
   width: 403px;
   border-radius: 48px;
 }
+
+
+/* Productive Users Section */
+
+.stats-card {
+  background-color: #e7e9ff;
+  border-radius: 12px;
+  margin: 0 300px;
+  padding: 60px;
+  text-align: center;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+.stats-card h2 {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 0 145px;
+}
+
+.stat {
+  color: #555;
+}
+
+.stat-value {
+  font-size: 80px;
+  font-weight: bold;
+  color: #524eff;
+}
+
+.stat-label {
+  font-size: 20px;
+  margin-top: 6px;
+  color: #777;
+}
+/* Users' Feedback Section */
+.users {
+  max-width: 1200px;
+}
+.users-title{
+  font-size: 42px;
+  margin-top: 137px;
+  margin-bottom: 40px;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+.users-cards {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 50px;
+  padding: 20px;
+  height: 193px;
+  width: 366px;
+}
+
+.stars {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 12px;
+}
+
+.stars img {
+  width: 20px;
+  height: 20px;
+}
+
+.title {
+  font-size: 21px;
+  font-weight: bold;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #333;
+}
+
+.text {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.reviewer-details {
+  font-size: 12px;
+  color: #777;
+}
