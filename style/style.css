@@ -60,3 +60,30 @@ nav {
   margin-top: 37px;
   padding-bottom: 152px;
 }
+
+/* Action contant section */
+.action-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 300px;
+  margin-top: 116px;
+  margin-bottom: 116px;
+}
+.action {
+  padding-left: 0;
+}
+.action-title {
+  font-size: 42px;
+  font-weight: bold;
+}
+.action-description {
+  color: #252432;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.action-img {
+  height: 328px;
+  width: 403px;
+  border-radius: 48px;
+}
