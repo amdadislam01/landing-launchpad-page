@@ -200,3 +200,40 @@ nav {
   font-size: 12px;
   color: #777;
 }
+/* Focus section start */
+.focuas-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 137px;
+  margin: 0 170px;
+}
+.cta-section {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 60px 40px;
+  height: 700px;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.cta-section h2 {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  color: #111;
+}
+
+.cta-section p {
+  color: #777;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.cta-section img {
+  margin-top: 40px;
+  height: 450px;
+  max-width: 100%;
+  border-radius: 24px;
+}
