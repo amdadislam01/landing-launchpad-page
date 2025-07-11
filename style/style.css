@@ -119,6 +119,7 @@ nav {
 }
 
 .stat-value {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 80px;
   font-weight: bold;
   color: #524eff;
@@ -236,4 +237,124 @@ nav {
   height: 450px;
   max-width: 100%;
   border-radius: 24px;
+}
+
+
+/* Contact section */
+.contact-section {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  max-width: 1200px;
+  margin-top: 100px;
+  width: 100%;
+  gap: 40px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-text h1 {
+  font-size: 93px;
+  font-weight: bold;
+  color: #111;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.contact-form {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-form label {
+  font-size: 18px;
+  color: #111;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 19px 25px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+.contact-form button {
+  background-color: #5b4efc;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-bottom: 75px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover{
+  background-color: rgb(9, 158, 228);
+    cursor: pointer;
+}
+
+/* footer section */
+.footer {
+  background-color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer .logo {
+  margin-top: 105px;
+  font-size: 98px;
+  font-weight: 900;
+  color: #524eff;
+  margin-bottom: 20px;
+}
+
+.footer .description {
+  color: #888;
+  font-size: 14px;
+  max-width: 600px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+.footer .nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 48px;
+  flex-wrap: wrap;
+}
+
+.footer .nav a {
+  text-decoration: none;
+  color: #888;
+  font-size: 14px;
+  transition: color 0.2s ease-in-out;
+}
+
+.footer .nav a:hover {
+  color: rgb(9, 158, 228);
 }
